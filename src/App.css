@@ -1,0 +1,120 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: Arial;
+  margin: 0;
+  padding: 0;
+}
+body{
+  border: rgb(0, 0, 0) solid 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+/* for header section*/
+.header-sec{
+padding: 10px;
+ display: flex;
+ justify-content: space-between;
+
+ background-color: rgb(255, 213, 0);
+
+}
+.left-header{
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 20px;
+  flex: 2;
+  
+}
+
+.center ul li{
+  align-content: center;
+  list-style: none;
+  margin: 0px 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0;
+  
+}
+.center{
+  align-content: center;
+  margin: 0px 10px;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0;
+  flex: 4;
+ 
+}
+
+.search-bar{
+  margin: 0px 5px;
+  flex: 2;
+  width: 300px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.search-logo img{
+  display: inline-grid;
+  width: 30px;
+  height: 30px;
+ 
+  vertical-align: middle;
+  margin-right: 40px;
+  vertical-align: middle;
+ 
+}
+.right-header{
+  margin-left: 30px;
+  display: inline-flex;
+  justify-content: space-between;
+  flex: 4;
+}
+.sign-in{
+  border: solid black;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+.Cart{
+  vertical-align: middle;
+  margin-left:200px;
+  margin-right: 0px;
+}
+/*banner section*/
+.banner-img img{
+  width: 100%;
+  padding-top: 10px;
+}
+
+.women-banner img{
+  width: 100%;
+  padding-top: 10px;
+}
+/*collection section*/
+.mensimg-box{
+  display: flex;
+  justify-content: space-between;
+}
+.menimages img{
+  display: inline-flex;
+  width: 250px;
+  height: 250px;
+}
+
+/*women*/
+.women-box{
+  display: flex;
+  justify-content: space-between;
+}
+.womenimages img{
+  display: inline-flex;
+  width: 250px;
+  height: 250px;
+}
+/*footer-section*/
+.footer img{
+  width: 100%;
+  padding-top: 10px;
+}
