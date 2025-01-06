@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import Mainpage from './Shopping/pages/mainpage'
+import FormExample from './form events/FormExample';
+
 const App = () => {
   return (
     <div>
-    
-        <Mainpage/>
+        <FormExample/>
     </div>
   )
 }
